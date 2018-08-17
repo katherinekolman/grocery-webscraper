@@ -4,6 +4,6 @@ This is a small webscraper I built a while ago that logs into my Pick n' Save ac
 Building this webscraper was a bit of a challenge at first. I had originally planned on using BeautifulSoup along with requests to scrape for data, but then I discovered the login page was rendered in JavaScript. I opted to use Selenium instead, which made things a lot easier, if a little slower.
 
 ## Resources
-* Python 3+ (I think 2 would work as well, but I never tested it with that)
+* Python 3.x
 * [Selenium](https://www.seleniumhq.org/)
 * [GeckoDriver](https://github.com/mozilla/geckodriver/)
